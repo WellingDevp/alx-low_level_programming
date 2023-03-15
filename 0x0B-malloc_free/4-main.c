@@ -14,7 +14,7 @@ void print_grid(int **grid, int width, int height)
 {
 	int w;
 	int h;
-
+	
 	h = 0;
 	while (h < height)
 	{
@@ -26,7 +26,7 @@ void print_grid(int **grid, int width, int height)
 		}
 		printf("\n");
 		h++;
-	}   
+	}
 }
 
 /**
@@ -37,7 +37,7 @@ void print_grid(int **grid, int width, int height)
 int main(void)
 {
 	int **grid;
-
+	
 	grid = alloc_grid(6, 4);
 	if (grid == NULL)
 	{
